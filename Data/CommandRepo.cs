@@ -36,7 +36,7 @@ namespace Data
             return await _context.Commands.FirstOrDefaultAsync(c => id == c.Id);
         }
 
-        public async Task SaveChanges()
+        public async Task SaveChangesAsync()
         {
             await _context.SaveChangesAsync();
         }

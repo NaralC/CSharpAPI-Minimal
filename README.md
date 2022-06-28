@@ -1,6 +1,7 @@
 Topics covered in this project:
 - Dependency Injection
+- Object-Relational Mapping
+- Entity Framework Data Migration
 - .NET in General
-- Object-Relational Mapping <br />
-~~- Service Repo Pattern~~ <br />
-~~- Full MVCs comparison against minimal APIs~~
+- ~~- Service Repo Pattern~~
+- ~~- Full MVCs comparison against minimal APIs~~
