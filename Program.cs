@@ -16,8 +16,8 @@ builder.Services.AddSwaggerGen();
 var sqlConnectionBuilder = new SqlConnectionStringBuilder();
 
 sqlConnectionBuilder.ConnectionString = builder.Configuration.GetConnectionString("DefaultConnection"); // To run locally, use "DefaultConnection": "Server=tcp:localhost,1433;Initial Catalog=CommandDb;"
-sqlConnectionBuilder.UserID = builder.Configuration["UserId"];
-sqlConnectionBuilder.Password = builder.Configuration["Password"];
+sqlConnectionBuilder.UserID = builder.Configuration["UserId"] ?? "systemadmin";
+sqlConnectionBuilder.Password = builder.Configuration["Password"] ?? "pa55w0rd!";
 
 builder.Services.AddDbContext<AppDbContext>(opt => opt.UseSqlServer(sqlConnectionBuilder.ConnectionString));
 builder.Services.AddScoped<ICommandRepo, CommandRepo>(); // Dependency injection
