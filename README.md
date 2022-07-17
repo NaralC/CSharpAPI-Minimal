@@ -18,7 +18,7 @@
 ![image](https://user-images.githubusercontent.com/77269201/179403713-63947533-a258-4dba-b538-65cd1b41a4aa.png)
 > The main difference is integrating controllers with Program.cs — essentially a barebone version of MVC
 
-### Features missing from a minimal API compared to a an MVC one:
+### Features missing from a minimal API compared to an MVC one:
  - Model Validation (the ability to evaluate whether controllers are doing their jobs properly)
  - JSONPatch (the ability to partially update a model, instead of entirely replacing it)
  - Filters (the ability to inject extra logic at different stages, such as user authorization)
