@@ -1,12 +1,11 @@
 ## Command Line Code Snippets Minimal API
 
+### The application lets us create, read, update, and delete command line snippets stored on Azure's Cloud — ideal when we don't want to remember everything.
+
 ### Link to site
 > - To be added
-
-### The application lets us create, read, update, and delete command line snippets stored on Azure Clould — ideal when we don't want to remember everything.
-
-### With the introduction of countless backend and deployment concepts during my first internship, I aim to practice and broaden my understanding of them.
-#### Such concepts and technologies include, but are not limited to:
+  
+#### With the introduction of countless backend and deployment concepts during my first internship, I aim to practice and broaden my understanding of them. Such concepts and technologies include, but are not limited to:
 - .NET and C# in General
 - MS SQL Server Management Studio
 - Dependency Injection
@@ -16,11 +15,11 @@
 - Azure (SQL Server + Container Instance)
 - Testing endpoints with Swagger
 
-### Overall architecture of a minimal API compared to an MVC one
+### Overall architecture of our (minimal) API compared to an MVC one
 ![image](https://user-images.githubusercontent.com/77269201/179403713-63947533-a258-4dba-b538-65cd1b41a4aa.png)
 > The main difference is integrating controllers with Program.cs — essentially a barebone version of MVC
 
-### Features missing from a minimal API compared to an MVC one:
+### Features missing from our (minimal) API compared to an MVC one:
  - Model Validation (the ability to evaluate whether controllers are doing their jobs properly)
  - JSONPatch (the ability to partially update a model, instead of entirely replacing it)
  - Filters (the ability to inject extra logic at different stages, such as user authorization)
