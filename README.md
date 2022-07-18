@@ -1,7 +1,9 @@
-## Command Line Snippets Minimal API
+## Command Line Code Snippets Minimal API
 
 ### Link to site
 > - To be added
+
+### The application lets us create, read, update, and delete command line snippets stored on Azure Clould — ideal when we don't want to remember everything.
 
 ### With the introduction of countless backend and deployment concepts during my first internship, I aim to practice and broaden my understanding of them.
 #### Such concepts and technologies include, but are not limited to:
