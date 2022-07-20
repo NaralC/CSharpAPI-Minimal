@@ -3,7 +3,7 @@
 ### The application lets us create, read, update, and delete command line snippets stored on Azure's Cloud — ideal when we don't want to remember everything.
 
 ### Link to site
-> - To be added
+> - http://minimalapi.uksouth.azurecontainer.io/swagger (it's down for now since my Azure credit's out)
   
 #### With the introduction of countless backend and deployment concepts during my first internship, I aim to practice and broaden my understanding of them. Such concepts and technologies include, but are not limited to:
 - .NET and C# in General
@@ -25,10 +25,11 @@
  - Filters (the ability to inject extra logic at different stages, such as user authorization)
 
 ### Testing endpoints with Swagger UI
-> - To be added
+>  ![swggr](https://user-images.githubusercontent.com/77269201/180017746-239cfb21-51ea-42bd-bcf6-d5ee9c245092.jpg)
 
-### Azure Dashboard
-> - To be added
+
+### Azure Container Instance Dashboard
+>  ![azure container dashboard](https://user-images.githubusercontent.com/77269201/180017120-3210a587-9ec7-4d80-9a2a-c179298b5207.jpg)
 
 
 References:
